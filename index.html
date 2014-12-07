@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Argumentation on the Social Web</title>
+
+		<meta name="description" content="An overview of modelling dialectic and eristic argumentation on the social web">
+		<meta name="author" content="Tom Blount">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/raphael.js"></script>
+        <script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+        
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+        
+        
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+        <script type="text/javascript" src="js/nodes.js"></script>
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<h1>Argumentation on the Social Web</h1>
+					<h3>Modelling dialectic and eristic argumentation</h3>
+					<p><small>Tom Blount, David Millard and Mark Weal</small></p>
+                    <p><small>Slides available at: <a href="http://tomblount.co.uk/argumentation-social-web">http://tomblount.co.uk/argumentation-social-web</a></small></p>
+                    
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons" style="border-width:0" src="images/cc.png" /></a>
+				</section>
+
+                <section>
+                    <h3>Introduction</h3>
+                    <ul>
+                        <li>Social media is a rich opportunity for analysing "Big" argument structures</li>
+                        <li>Social argumentation differs from formal argumentation</li>
+                        <li>How can we capture these different forms of argumentation?</li>
+                    </ul>
+				</section>
+                
+                <!-- Modelling -->
+                <section>
+                    <section>
+                        <h3>Examining argumentation "in the wild"</h3>
+                        <ul>
+                            <li>What structures do social arguments form?</li>
+                            <li>How can we model these structures?</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>AIF</h3>
+                        <!--<div id="aif"></div>
+                        <script type="text/javascript" src="images/speech_acts_js/example_aif.js"></script>-->
+                        <img src="images/speech_acts/aif.png" alt="AIF Model">
+                    </section>
+					<section>
+                        <h3>AIF+</h3>
+                        <!--<div id="aifplus1"></div>
+                        <script type="text/javascript" src="images/speech_acts_js/example_aifplus.js"></script>-->
+                        <img src="images/speech_acts/aifplus1.png" alt="AIF+ Model">
+                    </section>
+                    <section>
+                        <h3>AIF+</h3>
+                        <h5>A more complex example</h5>
+                        <!--<div id="aifplus2"></div>
+                        <script type="text/javascript" src="images/speech_acts_js/example_aifplus2.js"></script>-->
+                        <img src="images/speech_acts/aifplus2.png" alt="AIF+ Model">
+                    </section>
+                    <section>
+                        <h3>SIOC</h3>
+                        <!--<div id="sioc"></div>
+                        <script type="text/javascript" src="images/speech_acts_js/example_sioc.js"></script>-->
+                        <img src="images/speech_acts/sioc.png" alt="SIOC Model">
+                    </section>
+                </section>
+                
+                <!-- Ad Hominem Argument -->
+				<section>
+                    <section>
+                        <h3>Ad Hominem</h3>
+                        <ul>
+                            <li>"To the man"</li>
+                            <li>Attack an opponents argument by undermining their credibility</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Example:</h3>
+                        <img src="images/social_media/hominem.png" alt="Ad Hominem argument">
+                    </section>
+					<section>
+                        <h3>Can be modelled as:</h3>
+                        <img src="images/speech_acts/hominem1.png" alt="Ad Hominem attacking an I-Node">
+                    </section>
+                    <section>
+                        <h3>Or:</h3>
+                        <img src="images/speech_acts/hominem2.png" alt="Ad Hominem attacking a U-Node">
+                    </section>
+                    <section>
+                        <h3>Or even:</h3>
+                        <img src="images/speech_acts/hominem3.png" alt="Ad Hominem attacking a P-Node">
+                    </section>
+                </section>
+                
+                <!-- Abusive Argument -->
+                <!--
+				<section>
+                    <section>
+                        <h3>Ad baculum</h3>
+                        <ul>
+                            <li>"To the cudgel"</li>
+                            <li>Aimed at forcing silence or complacency</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Example:</h3>
+                        <img src="images/social_media/baculum.png" alt="Abusive argument">
+                    </section>
+					<section>
+                        <h3>Could map to...</h3>
+                    </section>
+                    <section>
+                        <h3>...or...</h3>
+                    </section>
+                </section>
+                -->
+                
+                <!-- Appeal to Audience -->
+                <!--
+				<section>
+                    <section>
+                        <h3>Appeal to Audience</h3>
+                        <ul>
+                            <li>Humour</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Example:</h3>
+                        <img/>
+                    </section>
+					<section>
+                        <h3>Could map to...</h3>
+                    </section>
+                    <section>
+                        <h3>...or...</h3>
+                    </section>
+                </section>
+                -->
+                
+                <!-- Social Features -->
+				<section>
+                    <section>
+                        <h3>Social Features</h3>
+                        <ul>
+                            <li>Upvotes/Downvotes</li>
+                            <li>Favourites</li>
+                            <li>Reposts/reblogs</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Example:</h3>
+                        <h5>Compare this...</h5>
+                        <img src="images/social_media/some_likes.png" alt="Argument with many likes">
+                    </section>
+                    <section>
+                        <h3>Example:</h3>
+                        <h5>...with this</h5>
+                        <img src="images/social_media/many_likes.png" alt="Argument with many likes">
+                    </section>
+					<section>
+                        <h3>Could map to...</h3>
+                         <h5>Modelling total up/down votes with a "Rhetoric" Node</h5>
+                        <img src="images/speech_acts/likes1.png" alt="Modelling upvotes with Rhetoric Node">
+                    </section>
+                    <section>
+                        <h3>...or...</h3>
+                        <h5>Modelling each up/down vote as a Locution</h5>
+                        <img src="images/speech_acts/likes2.png" alt="Modelling upvotes as Locutions">
+                    </section>
+                </section>
+                
+				<section>
+                    <section>
+                        <h3>Conclusion</h3>
+                        <ul>
+                            <li>Social media is an excellent opportunity to analyse argumentation on a large scale</li>
+                            <li>The social aspect cannot be ignored</li>
+                            <li>There are many different approaches to capture this dimension</li>
+                        </ul>
+                    </section>
+					<section>
+                        <h2>Questions?</h2>
+                    </section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                //autoSlide: 20000,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
